@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contack From</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="contact_container">
+      <from
+        action="https://api.web3forms.com/submit"
+        method="POST"
+        class="left_container"
+      >
+        <div class="contact_container_title">
+          <!-- Replace with your Access Key -->
+          <input
+            type="hidden"
+            name="access_key"
+            value="126b072f-0ebc-4a25-beed-359879359f55"
+          />
+
+          <h2>Contack Us</h2>
+          <hr />
+        </div>
+
+        <input
+          class="contact_inputs"
+          type="text"
+          name="name"
+          placeholder="Enter your Name"
+        />
+        <input
+          class="contact_inputs"
+          type="email"
+          name="email"
+          placeholder="Enter your email"
+        />
+        <textarea
+          class="message"
+          name="message"
+          placeholder="Enter your message"
+          id=""
+        ></textarea>
+        <button type="submit">submit</button>
+      </from>
+
+      <div class="right_container">
+        <img src="./sun (2).gif" alt="" srcset="" />
+      </div>
+    </div>
+
+    
+  </body>
+</html>
